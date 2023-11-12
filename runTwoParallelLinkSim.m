@@ -6,7 +6,7 @@
 %
 % Returns: the average numeric result across the total simulations
 
-function result = runTwoSeriesLinkSim(K,p,N)
+function result = runTwoParallelLinkSim(K,p,N)
 
     simResults = ones(1,N); % a place to store the result of each simulation
     
